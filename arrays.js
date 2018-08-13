@@ -14,7 +14,7 @@ function addElementToBeginningOfArray (array, element) {
     return array;
   }
   function destructivelyRemoveElementFromBeginningOfArray(array){
-    return array;
+    array;
   }
   function removeElementFromBeginningOfArray(array){
     chocolateBars.slice(1);
