@@ -27,13 +27,16 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
     array.shift();
     return array;
   }
+  // function removes its 1sr element in the array
   function removeElementFromBeginningOfArray(array){
     return array.slice(1);
   }
+  // function removes its 1sr element in the array
   function destructivelyRemoveElementFromEndOfArray(array){
     array.pop();
     return array;
   }
+  // function removes its 1sr element in the array
   function removeElementFromEndOfArray(array){
     return array.slice(0, arrary.length - 1);
   }
