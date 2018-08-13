@@ -23,4 +23,8 @@ function addElementToBeginningOfArray (array, element) {
     chocolateBars.slice(1);
     return array;
   }
+  function destructivelyRemoveElementFromEndOfArray(array){
+    chocolateBars.pop();
+    return array;
+  }
   function 
