@@ -38,5 +38,5 @@ function destructivelyAddElementToBeginningOfArray (array, element) {
   }
   // function removes its 1sr element in the array
   function removeElementFromEndOfArray(array){
-    return array.slice(0, arrary.length - 1);
+    return array.slice(0, array.length - 1);
   }
