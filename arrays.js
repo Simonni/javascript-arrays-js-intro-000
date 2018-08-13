@@ -1,14 +1,16 @@
 // define var. chocolateBars
 var chocolateBars = ["snickers", "hundred grand'",  "kitkat", "skittles"];
+
 // define 2 functions that take 2 parameter, array & element
 // add element at the beginning of array 
 function addElementToBeginningOfArray (array, element) {
   return[element, ...array];
   }
-   function destructivelyAddElementToBeginningOfArray (array, element) {
-     array.unshift(element);
-     return array;
+function destructivelyAddElementToBeginningOfArray (array, element) {
+  array.unshift(element);
+  return array;
    }
+  //define 2 functions that add to the end of the array 
   function addElementToEndOfArray(array, element) {
     return [...array, element];
   }
