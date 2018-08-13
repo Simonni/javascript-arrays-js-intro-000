@@ -8,6 +8,7 @@ function addElementToBeginningOfArray (array, element) {
      return array;
    }
   function addElementToEndOfArray(array, element) {
-    
+    chocolateBars.push("element");
+    return array;
   }
-  
+  function 
