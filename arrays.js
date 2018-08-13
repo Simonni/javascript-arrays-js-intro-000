@@ -1,3 +1,3 @@
 var chocolateBars = ['snickers', 'hundred grand', ' kitkat', 'skittles'];
 var addElementToBeginningOfArray = chocolateBars.unshift('milky way');
-var destructivelyAddElementToBeginningOfArray = ('3 muske'...chocolateBars)
+var destructivelyAddElementToBeginningOfArray = ('3 musketeers'...chocolateBars);
