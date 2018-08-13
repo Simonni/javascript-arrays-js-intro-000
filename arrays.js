@@ -6,3 +6,4 @@ var destructivelyAddElementToBeginningOfArray= (chocolateBars,...'milky way');
 var accessElementInArray = ['cnn', 'bbc', 'nbc'];
 console.log([2]);
 var destructivelyRemoveElementFromBeginningOfArray = ['cnn', 'bbc', 'nbc', 'fox news'];
+destructivelyRemoveElementFromBeginningOfArray.slice(3);
