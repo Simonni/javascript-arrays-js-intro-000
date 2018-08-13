@@ -19,4 +19,8 @@ function addElementToBeginningOfArray (array, element) {
     chocolateBars.shift();
     return array;
   }
+  function removeElementFromBeginningOfArray(array){
+    chocolateBars.slice(1);
+    return array;
+  }
   function 
