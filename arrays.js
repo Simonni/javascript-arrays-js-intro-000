@@ -8,11 +8,11 @@ function addElementToBeginningOfArray (array, element) {
      return array;
    }
   function addElementToEndOfArray(array, element) {
-    chocolateBars.push("element");
+    chocolateBars.push("foo");
     return array;
   }
   function destructivelyAddElementToEndOfArray(array, element){
-    chocolateBars[5]='element';
+    chocolateBars[5]='foo';
     return array;
   }
   function destructivelyRemoveElementFromBeginningOfArray(array){
