@@ -11,4 +11,6 @@ function addElementToBeginningOfArray (array, element) {
     chocolateBars.push("element");
     return array;
   }
-  function 
+  function destructivelyAddElementToEndOfArray(array, element){
+    
+  }
