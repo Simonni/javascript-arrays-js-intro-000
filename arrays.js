@@ -7,15 +7,13 @@ function addElementToBeginningOfArray (array, element) {
      return array;
    }
   function addElementToEndOfArray(array, element) {
-    chocolateBars.push("foo");
-    return array;
+    return [...array, element];
   }
   function destructivelyAddElementToEndOfArray(array, element){
-    chocolateBars[5]='foo';
+    array.push(element);
     return array;
   }
   function destructivelyRemoveElementFromBeginningOfArray(array){
-    chocolateBars.shift();
     return array;
   }
   function removeElementFromBeginningOfArray(array){
