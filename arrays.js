@@ -7,5 +7,5 @@ function addElementToBeginningOfArray (array, element) {
      ["element, ...chocolateBars"];
      return array;
    }
-  
+  function 
   
