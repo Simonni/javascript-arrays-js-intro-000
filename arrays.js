@@ -13,12 +13,16 @@ function addElementToBeginningOfArray (array, element) {
     array.push(element);
     return array;
   }
+  function accessElementInArray (array, index){
+    return array[index]
+  }
   function destructivelyRemoveElementFromBeginningOfArray(array){
-    array;
+    array.shift();
+    return array;
   }
   function removeElementFromBeginningOfArray(array){
-    chocolateBars.slice(1);
-    return array;
+    return array.slice(1);
+  
   }
   function destructivelyRemoveElementFromEndOfArray(array){
     chocolateBars.pop();
