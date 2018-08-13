@@ -22,13 +22,11 @@ function addElementToBeginningOfArray (array, element) {
   }
   function removeElementFromBeginningOfArray(array){
     return array.slice(1);
-  
   }
   function destructivelyRemoveElementFromEndOfArray(array){
-    chocolateBars.pop();
+    array.pop();
     return array;
   }
   function removeElementFromEndOfArray(array){
-    chocolateBars.slice(0, chocolateBars.length - 1);
-    return array;
+    return array.slice(0, arrary.length - 1);
   }
